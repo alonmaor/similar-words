@@ -35,5 +35,5 @@ if __name__ == '__main__':
     input_words(word_filepath)
     print('Successfully created database with dictionary')
 
-    uvicorn.run("main:app", host='127.0.0.1', port=8080, log_level="info", reload=True)
+    uvicorn.run("main:app", host='127.0.0.1', port=8000, log_level="info", reload=True)
     print('Application has exited')

@@ -1,0 +1,72 @@
+[32mINFO[0m:     Will watch for changes in these directories: ['/Users/amaor/prisma_task/SimilarWords/src']
+[32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:8080[0m (Press CTRL+C to quit)
+[32mINFO[0m:     Started reloader process [[36m[1m83960[0m] using [36m[1mStatReload[0m
+[32mINFO[0m:     Started server process [[36m83965[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m83965[0m]
+[32mINFO[0m:     Started server process [[36m83984[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+/Users/amaor/prisma_task/SimilarWords/src/service/stats_service.py:35: RuntimeWarning: coroutine 'AsyncSession.execute' was never awaited
+  duration_avg = await db.execute(text("""select AVG(duration) as avg_duration from requests""")).scalar()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+'coroutine' object has no attribute 'scalar'
+'coroutine' object has no attribute 'scalar'
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m83984[0m]
+[32mINFO[0m:     Started server process [[36m84026[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m84026[0m]
+[32mINFO[0m:     Started server process [[36m84038[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m84038[0m]
+[32mINFO[0m:     Started server process [[36m84049[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m84049[0m]
+[32mINFO[0m:     Started server process [[36m84063[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m84063[0m]
+[32mINFO[0m:     Started server process [[36m84073[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[33mWARNING[0m:  StatReload detected changes in 'service/stats_service.py'. Reloading...
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m84073[0m]
+[32mINFO[0m:     Started server process [[36m84087[0m]
+[32mINFO[0m:     Waiting for application startup.
+[32mINFO[0m:     Application startup complete.
+[32mINFO[0m:     Shutting down
+[32mINFO[0m:     Waiting for application shutdown.
+[32mINFO[0m:     Application shutdown complete.
+[32mINFO[0m:     Finished server process [[36m84087[0m]
+[32mINFO[0m:     Stopping reloader process [[36m[1m83960[0m]

@@ -5,7 +5,7 @@ from service.stats_service import get_words_count, get_total_requests, get_avg_p
 
 
 router = APIRouter(
-    prefix="",
+    prefix="/api/v1",
     tags=["Stats"],
     responses={404: {"description": "Not found"}},
 )

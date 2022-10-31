@@ -11,7 +11,7 @@ router = APIRouter(
 )
 
 
-@router.get("/similar/{word}")
+@router.get("/similar")
 async def similar(word):
     async with async_session() as session:
         async with session.begin():
